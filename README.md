@@ -47,4 +47,4 @@ _**Heaven’s Light is Our Guide**_
 ## INDEX:
 | Assignment No. | Title | Link | Remark |
 | :---: | :---: | :---: | :----: |
-| 01 | A simple banking system in C using a switch statement |[Assign_1](https://github.com/Amit2310042/ECE-1103_2310042/blob/main/Assignment/Assign_01.md)
+| 01 | OOP |[Assign_1](https://github.com/Amit2310042/ECE-1203/blob/main/Asspgn_1.md)
