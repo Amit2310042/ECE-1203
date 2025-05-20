@@ -314,6 +314,6 @@ int main()
 ```
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/67e4fc18-5770-4a0a-831b-307b42fce7cb">
+<img src="https://github.com/user-attachments/assets/b38e91a5-1660-4c61-ab75-8122fadb618a">
 
 
