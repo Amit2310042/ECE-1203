@@ -191,5 +191,5 @@ int main()
 ```
 ## **Output :**
 <p align="center">
-<img src="">
+<img src="https://github.com/user-attachments/assets/e4db00a1-c0ab-475d-befa-d3e66bb69642">
 
