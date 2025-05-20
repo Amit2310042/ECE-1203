@@ -125,4 +125,4 @@ int main()
 ```
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/10180865-e7db-48d3-bc3c-0197fc22b0de">
+<img src="https://github.com/user-attachments/assets/02b8b0e4-1130-4581-9167-b0f0ed1e91aa">
