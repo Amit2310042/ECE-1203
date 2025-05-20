@@ -193,3 +193,43 @@ int main()
 <p align="center">
 <img src="https://github.com/user-attachments/assets/e4db00a1-c0ab-475d-befa-d3e66bb69642">
 
+
+## **Code :**
+```C
+// constructor example 1
+#include <iostream>
+#include <string>
+using namespace std;
+class car
+{
+private:
+    string brand;
+    string model;
+    int year;
+
+public:
+    car() {}
+    void set(string a, string b, int c)
+    {
+        brand = a;
+        model = b;
+        year = c;
+    }
+    void display()
+    {
+        cout << "brand" << brand << endl;
+        cout << "model" << model << endl;
+        cout << "year" << year << endl;
+    }
+};
+int main()
+{
+    car c1;
+    c1.display();
+}
+```
+## **Output :**
+<p align="center">
+<img src="">
+
+
