@@ -23,6 +23,39 @@ int main(){
 <p align="center">
 <img src="https://github.com/user-attachments/assets/379adb83-1933-41b5-9aae-9f672aed0d53">
 
+    
+## **Code :**
+```C
+#include <iostream>
+#include <string>
+using namespace std;
+class myclass
+{
+private:
+    int x;
+    int y;
+
+public:
+    myclass()
+    {
+    }
+    void display()
+    {
+        cout << "vlaue of x" << x << endl;
+        cout << "vlaue of y" << y << endl;
+    }
+};
+int main()
+{
+    myclass c2;
+    c2.display();
+    return 0;
+}
+```
+## **Output :**
+<p align="center">
+<img src="https://github.com/user-attachments/assets/379adb83-1933-41b5-9aae-9f672aed0d53">
+
 
 
 </p>
