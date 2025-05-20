@@ -233,3 +233,87 @@ int main()
 <img src="https://github.com/user-attachments/assets/67e4fc18-5770-4a0a-831b-307b42fce7cb">
 
 
+
+## **Code :**
+```C
+// constructor example 1
+#include <iostream>
+#include <string>
+using namespace std;
+class car
+{
+private:
+    string brand;
+    string model;
+    int year;
+
+public:
+    car()
+    {
+        brand = "BMW";
+        model = "e3";
+        int year = 2026;
+    }
+
+    void display()
+    {
+        cout << "brand " << brand << endl;
+        cout << "model " << model << endl;
+        cout << "year " << year << endl;
+    }
+};
+int main()
+{
+    car c1, c2;
+    c1.display();
+    c2.display();
+}
+```
+## **Output :**
+<p align="center">
+<img src="">
+
+
+
+## **Code :**
+```C
+// constructor example 1
+#include <iostream>
+#include <string>
+using namespace std;
+class car
+{
+private:
+    string brand;
+    string model;
+    int year;
+
+public:
+    car()
+    {
+        brand = "mustang";
+    }
+    car(string mod, int ye)
+    {
+        model = mod;
+        year = ye;
+    }
+    void display()
+    {
+        cout << "brand" << brand << endl;
+        cout << "model" << model << endl;
+        cout << "year" << year << endl;
+    }
+};
+int main()
+{
+    car c1, c2("f3", 2020);
+    c1.display();
+    c2.display();
+}
+```
+## **Output :**
+<p align="center">
+<img src="https://github.com/user-attachments/assets/67e4fc18-5770-4a0a-831b-307b42fce7cb">
+
+
