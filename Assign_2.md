@@ -271,7 +271,7 @@ int main()
 ```
 ## **Output :**
 <p align="center">
-<img src="">
+<img src="https://github.com/user-attachments/assets/e09da71b-d46e-4d83-8f34-b1a33f392e60">
 
 
 
