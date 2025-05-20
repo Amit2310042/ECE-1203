@@ -21,8 +21,8 @@ int main(){
 ```
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/0b9e3fdc-d9c9-4acc-a00a-20a525ec07c1">
-<img src="https://github.com/user-attachments/assets/0e78f162-5154-43c4-b7d6-19a3aa35b176">
+<img src="https://github.com/user-attachments/assets/379adb83-1933-41b5-9aae-9f672aed0d53">
+
 
 
 </p>
