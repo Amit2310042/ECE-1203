@@ -162,3 +162,34 @@ int main()
 ## **Output :**
 <p align="center">
 <img src="https://github.com/user-attachments/assets/b2b5ef4a-0973-48f0-bc8b-f9deafc99d28">
+
+
+
+## **Code :**
+```C
+// constructor example 1
+#include <iostream>
+#include <string>
+using namespace std;
+class car
+{
+private:
+    string brand;
+    string model;
+    int year;
+
+public:
+    car()
+    {
+        cout << "default" << endl;
+    }
+};
+int main()
+{
+    car c1, c2;
+}
+```
+## **Output :**
+<p align="center">
+<img src="">
+
