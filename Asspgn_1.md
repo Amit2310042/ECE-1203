@@ -21,7 +21,7 @@ int main(){
 ```
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/0b9e3fdc-d9c9-4acc-a00a-20a525ec07c1">
+<img src="https://github.com/user-attachments/assets/d92b2a39-e281-4ab4-86ff-bf9ffe287943">
 
 
 
@@ -66,7 +66,7 @@ int main()
 ```
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/0b9e3fdc-d9c9-4acc-a00a-20a525ec07c1">
+<img src="https://github.com/user-attachments/assets/2d75b059-342d-4338-aefc-32292766a7b1">
 
 
 
@@ -110,7 +110,7 @@ int main()
 ```
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/0b9e3fdc-d9c9-4acc-a00a-20a525ec07c1">
+<img src="https://github.com/user-attachments/assets/5821e97f-84d0-4086-84fa-075714e45cc5">
 
 
 
@@ -151,7 +151,7 @@ int main()
 ```
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/0b9e3fdc-d9c9-4acc-a00a-20a525ec07c1">
+<img src="https://github.com/user-attachments/assets/ec2ad3ad-4732-4df9-9243-73b6e808e41a">
 
 
 
@@ -198,7 +198,7 @@ int main()
 ```
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/0b9e3fdc-d9c9-4acc-a00a-20a525ec07c1">
+<img src="https://github.com/user-attachments/assets/0bffb663-2950-41cb-80e6-cf32f0f3913a">
 
 
 
@@ -238,7 +238,7 @@ int main()
 ```
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/0b9e3fdc-d9c9-4acc-a00a-20a525ec07c1">
+<img src="https://github.com/user-attachments/assets/b4e81991-7132-4b2a-889f-5854bd0327f7">
 
 
 
@@ -289,7 +289,7 @@ int main()
 ```
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/0b9e3fdc-d9c9-4acc-a00a-20a525ec07c1">
+<img src="https://github.com/user-attachments/assets/6ed62e6d-5c16-4b3f-83e1-9f07baf370d2">
 
 
 
@@ -340,7 +340,7 @@ int main()
 ```
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/0b9e3fdc-d9c9-4acc-a00a-20a525ec07c1">
+<img src="https://github.com/user-attachments/assets/cd64c0bb-d2c4-4429-b8c5-8122757f738a">
 
 
 
@@ -393,7 +393,7 @@ int main()
 ```
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/0b9e3fdc-d9c9-4acc-a00a-20a525ec07c1">
+<img src="https://github.com/user-attachments/assets/3f6d1e01-c81d-49e0-974d-4f6ac7b1ec5b">
 
 
 
