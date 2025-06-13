@@ -102,6 +102,54 @@ This C++ code demonsrates constructor execution in multiple inheritance. When an
  
 
 
+----------------------------------------------
+
+
+
+
+## **Assignment No : 03**
+## **Experiment Name :  Example.**
+## **Submission Date : 14 June 2025**
+----------
+
+## **Code :**
+```C
+#include<iostream>
+#include<string>
+using namespace std;
+class A{
+    public:
+    A(){
+        cout<<"A"<<endl;
+    }
+};
+class B:public A{
+    public:
+    B(){
+        cout<<"B"<<endl;
+    }
+};
+class C:public B{
+    public:
+    C(){
+        cout<<"C"<<endl;
+    }
+};
+int main(){
+    C c1;
+}
+
+```
+## **Output :**
+<p align="center">
+<img src="">
+
+## **Discussion :**
+This C++ code demonstrates constructor execution in multilevel inheritance. Here class C inherits from class B, which in turn inherits from class A. When an object of C is created in the main function the constructors are called from the top of the hierarchy down to the most derived class.The output is A B C this occurs because C’s constructor first invokes B’s constructor, which in turn calls A’s constructor before executing its own logic.
+
+
+
+
 
 
 
