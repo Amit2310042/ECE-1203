@@ -60,6 +60,9 @@ This C++ code demonstrates inheritance where DeriveClass is derived from BaseCla
 
 ## **Code :**
 ```C
+#include<iostream>
+#include<string>
+using namespace std;
 class A{
     public:
     A(){
