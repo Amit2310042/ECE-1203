@@ -1,6 +1,6 @@
 ## **Assignment No : 01**
 ## **Experiment Name :  Example.**
-## **Submission Date : 21 May 2025**
+## **Submission Date : 13 June 2025**
 ----------
 
 ## **Code :**
@@ -40,7 +40,7 @@ int main(){
 ```
 ## **Output :**
 <p align="center">
-<img src="">
+<img src="https://github.com/user-attachments/assets/abe3ea85-1c4c-4fa9-81b0-fc23b2ffe6c5">
 
 ## **Discussion :**
 This C++ code demonstrates inheritance where DeriveClass is derived from BaseClass.BaseClass: It has two protected members: value1 (integer) and value2 (double).it also has a parameterized constructor that initializes these values and prints them. DeriveClass: we know that if one or more argument in base class constructor derive class need to pass those argument in base class constructor.It inherits BaseClass publicly.It has additional private member name(string).The constructor of DeriveClass explicitly calls the BaseClass constructor using initializer list (BaseClass(a, b)). Derived class constructors must call the base class constructor explicitly using the correct parameter names (like a, b instead of undeclared x, y).In the main function creates an object d1 of DeriveClass and pass the value of argument(10,20.5,"amit") and the output shows. 
