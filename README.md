@@ -49,4 +49,4 @@ _**Heaven’s Light is Our Guide**_
 | :---: | :---: | :---: | :----: |
 | 01 | OOP |[Assign_1](https://github.com/Amit2310042/ECE-1203/blob/main/Asspgn_1.md)
 | 02 | OOP |[Assign_2](https://github.com/Amit2310042/ECE-1203/blob/main/Assign_2.md)
-| 03 | OOP |[Assign_3](https://github.com/Amit2310042/ECE-1203/blob/main/Assign_2.md)
+| 03 | OOP |[Assign_3](https://github.com/Amit2310042/ECE-1203/blob/main/Assign_3.md)
