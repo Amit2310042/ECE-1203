@@ -94,7 +94,7 @@ int main(){
 <img src="https://github.com/user-attachments/assets/e1feb1c2-7e4d-4934-bc60-2628bd4650d1">
 
 ## **Discussion :**
-This code demonsrates constructor execution in multiple inheritance. When an object of class D is created, the constructors of its parent classes A, B, and C are called before the constructor of D. This follows a logical top-to-bottom order, based on the way the parent classes are listed in D's declaration (public A, public B, public C). This sequence happens automatically because when D's constructor runs, it first ensures that all base class constructors execute to properly initialize inherited properties. The ouput shows according to this (public A, public B, public C) order.Then at last it shows D constructor.
+This C++ code demonsrates constructor execution in multiple inheritance. When an object of class D is created, the constructors of its parent classes A, B, and C are called before the constructor of D. This follows a logical top-to-bottom order, based on the way the parent classes are listed in D's declaration (public A, public B, public C). This sequence happens automatically because when D's constructor runs, it first ensures that all base class constructors execute to properly initialize inherited properties. The ouput shows according to this (public A, public B, public C) order.Then at last it shows D constructor.
 
  
 
