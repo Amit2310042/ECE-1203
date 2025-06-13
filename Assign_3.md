@@ -190,7 +190,7 @@ int main(){
 <img src="https://github.com/user-attachments/assets/cf26534c-524a-4afa-adf8-0cab6b313fee">
 
 ## **Discussion :**
-This example illustrates special syntax in multiple inheritance when passing arguments to base class constructors. Here class C inherits from both A and B, and each of these base classes have parameterized constructors. When creating an object of C, the derived class constructor (C(int x, int y, int z)) must explicitly pass values to its parent constructors via an initializer list (:A(x), B(y)).So when C c1(10, 20, 30); is executed, the constructors are invoked in the order of inheritance, ensuring each base class gets properly initialized before the derived class executes its own logic.
+This C++ code demonstrates special syntax in multiple inheritance when passing arguments to base class constructors. Here class C inherits from both A and B, and each of these base classes have parameterized constructors. When creating an object of C, the derived class constructor (C(int x, int y, int z)) must explicitly pass values to its parent constructors via an initializer list (:A(x), B(y)).So when C c1(10, 20, 30); is executed, the constructors are invoked in the order of inheritance, ensuring each base class gets properly initialized before the derived class executes its own logic.
 
 
 
