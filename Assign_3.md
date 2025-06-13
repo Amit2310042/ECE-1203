@@ -50,3 +50,56 @@ This C++ code demonstrates inheritance where DeriveClass is derived from BaseCla
 
 
 
+----------------------------------
+
+
+## **Assignment No : 02**
+## **Experiment Name :  Example.**
+## **Submission Date : 13 June 2025**
+----------
+
+## **Code :**
+```C
+class A{
+    public:
+    A(){
+        cout<<"A"<<endl;
+    }
+};
+class B{
+    public:
+    B(){
+        cout<<"B"<<endl;
+    }
+};
+class C{
+    public:
+    C(){
+        cout<<"C"<<endl;
+    }
+};
+class D:public A,public B,public C{
+    public:
+    D(){
+        cout<<"D"<<endl;
+    }
+};
+int main(){
+    D c1;
+}
+
+```
+## **Output :**
+<p align="center">
+<img src="">
+
+## **Discussion :**
+This code demonsrates constructor execution in multiple inheritance. When an object of class D is created, the constructors of its parent classes A, B, and C are called before the constructor of D. This follows a logical top-to-bottom order, based on the way the parent classes are listed in D's declaration (public A, public B, public C). This sequence happens automatically because when D's constructor runs, it first ensures that all base class constructors execute to properly initialize inherited properties. The ouput shows according to this (public A, public B, public C) order.Then at last it shows D constructor.
+
+ 
+
+
+
+
+
+
