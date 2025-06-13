@@ -142,7 +142,7 @@ int main(){
 ```
 ## **Output :**
 <p align="center">
-<img src="">
+<img src="https://github.com/user-attachments/assets/b39cd082-3682-449c-81f0-157cc78974ff">
 
 ## **Discussion :**
 This C++ code demonstrates constructor execution in multilevel inheritance. Here class C inherits from class B, which in turn inherits from class A. When an object of C is created in the main function the constructors are called from the top of the hierarchy down to the most derived class.The output is A B C this occurs because C’s constructor first invokes B’s constructor, which in turn calls A’s constructor before executing its own logic.
