@@ -1,5 +1,5 @@
-## **Assignment No : 02**
-## **Experiment Name : Constructor example.**
+## **Assignment No : 01**
+## **Experiment Name :  Example.**
 ## **Submission Date : 21 May 2025**
 ----------
 
@@ -8,20 +8,45 @@
 #include<iostream>
 #include<string>
 using namespace std;
-class myclass{
+class BaseClass{
+    protected:
+    int value1;
+    double value2;
     public:
-    myclass(){
-        cout<<"Hello world";
+    BaseClass(int a,double b){
+        value1=a;
+        value2=b;
+        cout<<"Base constructor called "<<value1<<","<<value2<<endl;
+    }   
+};
+class DeriveClass:public BaseClass{
+    private:
+    string name;
+    public:
+
+    // DeriveClass(int x,double y,string s):BaseClass(x,y)  .. this is legal..not error
+    // DeriveClass(int x,double y,string s):BaseClass(a,b).. this is wrong...
+
+    DeriveClass(int a,double b,string s):BaseClass(a,b){
+        name=s;
+        cout<<"Derive contructor called "<<name<<endl;
     }
 };
 int main(){
-    myclass m1;
-    return 0;
+    DeriveClass d1(10,20.3,"amit");
+
 }
+
 ```
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/379adb83-1933-41b5-9aae-9f672aed0d53">
+<img src="">
 
 ## **Discussion :**
+This C++ code demonstrates inheritance where DeriveClass is derived from BaseClass.BaseClass: It has two protected members: value1 (integer) and value2 (double).it also has a parameterized constructor that initializes these values and prints them. DeriveClass: we know that if one or more argument in base class constructor derive class need to pass those argument in base class constructor.It inherits BaseClass publicly.It has additional private member name(string).The constructor of DeriveClass explicitly calls the BaseClass constructor using initializer list (BaseClass(a, b)). Derived class constructors must call the base class constructor explicitly using the correct parameter names (like a, b instead of undeclared x, y).In the main function creates an object d1 of DeriveClass and pass the value of argument(10,20.5,"amit") and the output shows. 
+
+
+
+
+
 
