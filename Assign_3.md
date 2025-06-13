@@ -149,6 +149,53 @@ This C++ code demonstrates constructor execution in multilevel inheritance. Here
 
 
 
+--------------------------------
+
+
+
+## **Assignment No : 04**
+## **Experiment Name :  Example.**
+## **Submission Date : 14 June 2025**
+----------
+
+## **Code :**
+```C
+#include<iostream>
+#include<string>
+using namespace std;
+class A{
+    public:
+    A(int x){
+        cout<<"cons A " <<x<<endl;
+    }
+};                                                                                                                             
+class B{
+    public:
+    B(int y){
+        cout<<"cons B "<<y<<endl;
+    }
+};
+class C:public A,public B{
+    public:
+    C(int x,int y,int z):A(x),B(y){
+        cout<<"cons C " <<z<<endl;
+    }
+};
+int main(){
+    C c1(10,20,30);
+}
+```
+## **Output :**
+<p align="center">
+<img src="">
+
+## **Discussion :**
+This example illustrates special syntax in multiple inheritance when passing arguments to base class constructors. Here class C inherits from both A and B, and each of these base classes have parameterized constructors. When creating an object of C, the derived class constructor (C(int x, int y, int z)) must explicitly pass values to its parent constructors via an initializer list (:A(x), B(y)).So when C c1(10, 20, 30); is executed, the constructors are invoked in the order of inheritance, ensuring each base class gets properly initialized before the derived class executes its own logic.
+
+
+
+
+
 
 
 
