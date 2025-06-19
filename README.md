@@ -47,7 +47,7 @@ _**Heaven’s Light is Our Guide**_
 ## INDEX:
 | Assignment No. | Title | Link | Remark |
 | :---: | :---: | :---: | :----: |
-| 01 | OOP |[Assign_1](https://github.com/Amit2310042/ECE-1203/blob/main/Asspgn_1.md)
-| 02 | OOP |[Assign_2](https://github.com/Amit2310042/ECE-1203/blob/main/Assign_2.md)
-| 03 | OOP |[Assign_3](https://github.com/Amit2310042/ECE-1203/blob/main/Assign_3.md)
-| 03 | OOP |[Assign_4]()
+| 01 | Basic |[Assign_1](https://github.com/Amit2310042/ECE-1203/blob/main/Asspgn_1.md)
+| 02 | Constructor Example |[Assign_2](https://github.com/Amit2310042/ECE-1203/blob/main/Assign_2.md)
+| 03 | Book's Example |[Assign_3](https://github.com/Amit2310042/ECE-1203/blob/main/Assign_3.md)
+| 03 | Keyword |[Assign_4](https://github.com/Amit2310042/ECE-1203/blob/main/Assign_4.md)
