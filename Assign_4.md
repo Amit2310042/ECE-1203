@@ -61,14 +61,6 @@ Combines variables into a single custom type.Default access modifier is public.
 
 ## **Example :**
 ```C
-double pi = 3.1415;
-int approx = static_cast<int>(pi);  // approx = 3
-
-
-```
-
-## **Example :**
-```C
 struct Book {
     string title;
     int pages;
