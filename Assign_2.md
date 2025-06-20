@@ -252,7 +252,7 @@ public:
     {
         brand = "BMW";
         model = "e3";
-        int year = 2026;
+        year = 2026;
     }
 
     void display()
