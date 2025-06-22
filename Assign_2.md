@@ -64,7 +64,6 @@ int main()
 
 ## **Discussion :**
 This C++ program defines a class myclass with two private integer variables, x and y. The class includes a default constructor and a display() function that prints the values of x and y.However, the variables x and y are not initialized in the constructor or elsewhere in the program. When the display() function is called in main() through the object c2, it attempts to print these uninitialized variables and value x,y is showing garbej value.
----------- 
 
 
 ## **Code :**
