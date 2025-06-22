@@ -23,6 +23,11 @@ int main(){
 <p align="center">
 <img src="https://github.com/user-attachments/assets/379adb83-1933-41b5-9aae-9f672aed0d53">
 
+## **Discussion :**
+This C++ program demonstrates the concept of a constructor in object oriented programming. A class named myclass is defined with a default constructor that prints "Hello world".When the main() function executes, it creates an object m1 of myclass. As soon as the object is created, the constructor is automatically called.
+
+
+------------------
     
 ## **Code :**
 ```C
@@ -55,11 +60,11 @@ int main()
 ## **Output :**
 <p align="center">
 <img src="https://github.com/user-attachments/assets/bb36353f-1d1a-403a-ab09-5a048e2a0106">
-
-
 </p>
 
-----------
+## **Discussion :**
+This C++ program defines a class myclass with two private integer variables, x and y. The class includes a default constructor and a display() function that prints the values of x and y.However, the variables x and y are not initialized in the constructor or elsewhere in the program. When the display() function is called in main() through the object c2, it attempts to print these uninitialized variables and value x,y is showing garbej value.
+---------- 
 
 
 ## **Code :**
@@ -94,7 +99,11 @@ int main()
 <p align="center">
 <img src="https://github.com/user-attachments/assets/10180865-e7db-48d3-bc3c-0197fc22b0de">
 
+## **Discussion :**
+This program demonstrates the use of a parameterized constructor in C++. The class myclass contains a private integer member x. When an object c2 is created in main() with the value 20, the parameterized constructor is called automatically, initializing x with the provided value.The constructor also prints a confirmation message: "parameterized constructor called". Then, the display() function prints the value of x.
 
+
+-------------
 
 ## **Code :**
 ```C
@@ -127,7 +136,11 @@ int main()
 <p align="center">
 <img src="https://github.com/user-attachments/assets/02b8b0e4-1130-4581-9167-b0f0ed1e91aa">
 
+## **Discussion :**
+This program demonstrates the use of a class with a parameterized constructor to represent car objects. The class car contains three public data members: brand, model, and year. The constructor initializes these members with the values passed during object creation.In the main() function, two objects c1 and c2 are created with specific car details. The program then outputs the details of each car using cout.
 
+
+-------------------------
 
 ## **Code :**
 ```C
@@ -163,7 +176,12 @@ int main()
 <p align="center">
 <img src="https://github.com/user-attachments/assets/b2b5ef4a-0973-48f0-bc8b-f9deafc99d28">
 
+## **Discussion :**
+This program is same as above but here the parameterized constructor declare in the class and define outside the class.We konow the syntax is 
+class name ::constructor name(parameter).
 
+
+-------------------------
 
 ## **Code :**
 ```C
@@ -193,7 +211,11 @@ int main()
 <p align="center">
 <img src="https://github.com/user-attachments/assets/e4db00a1-c0ab-475d-befa-d3e66bb69642">
 
+## **Discussion :**
+This program demonstrates the use of a default constructor in C++. The class car has three private data members brand, model, and year, although they are not initialized or used in this example.The constructor car() is called automatically when objects c1 and c2 are created in the main() function. Each time an object is created, the constructor prints "default".
 
+
+-------------------------
 ## **Code :**
 ```C
 // constructor example 1
@@ -232,7 +254,8 @@ int main()
 <p align="center">
 <img src="https://github.com/user-attachments/assets/67e4fc18-5770-4a0a-831b-307b42fce7cb">
 
-
+## **Discussion :**
+This program defines a car class with private attributes: brand, model, and year. A default constructor is provided, but it doesn't initialize any values.The class includes a set() function to assign values to the attributes and a display() function to print them. In the main() function, a car object c1 is created, but the set() function is not called before display(). As a result, the program outputs empty strings for brand and model, and garbage value for year.
 
 ## **Code :**
 ```C
@@ -273,7 +296,8 @@ int main()
 <p align="center">
 <img src="https://github.com/user-attachments/assets/9ba40376-f320-4b57-aa5b-ed67d391ac39">
 
-
+## **Discussion :**
+This code is same as before, here just created two object of car class and call the display function with each of the object.So output will show two times of display function.
 
 ## **Code :**
 ```C
@@ -316,4 +340,7 @@ int main()
 <p align="center">
 <img src="https://github.com/user-attachments/assets/b38e91a5-1660-4c61-ab75-8122fadb618a">
 
+
+## **Discussion :**
+Here are a default constructor and a parameterized constructor.When an c1 object is created,default constructor is called and set value for brand variable.Then c2 parametized called the parameterized constructor and set the value with its argument value.Then display function is called with c1 object then the output show the brand name and model is empty and year show garbaje value.When c2 object call the display it pass the argument for model and year but brand is empty.
 
