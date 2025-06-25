@@ -148,3 +148,161 @@ int main(){
 
 ## **Discussion :**
 The class Pass contains a private integer a, which is initialized through the constructor.THe get method used to return the value oa a.In the main() function, two objects x and y are created with values 10 and 4 and then constructor is called and value of a is set.Then when square function is called, it called the get function and get function return the value a.so square function return the square of a.The same as object y. 
+
+--------------------------
+
+
+## **Assignment No : 04**
+## **Experiment Name :  Passing objects to function**
+## **Submission Date : 25 June 2025**
+----------
+
+## **Code :**
+```C
+#include <iostream>
+using namespace std;
+class Pass
+{
+    int a;
+
+public:
+    Pass(int n)
+    {
+        a = n;
+    }
+    void set(int n) { a = n; }
+
+    int get()
+    {
+        return a;
+    }
+};
+void square(Pass ob)
+{
+    ob.set(ob.get()*ob.get());
+    cout<<"copy of p1 as a value: " <<ob.get()<<endl;
+}
+
+int main()
+{
+    Pass p1(10);
+    square(p1); //pass by value..
+    cout<<p1.get(); //10
+    return 0;
+}
+
+```
+## **Output :**
+<p align="center">
+<img src="https://github.com/user-attachments/assets/4404beb8-7e61-4dba-9a7a-6298101deffd">
+
+## **Discussion :**
+This code is same as assignment 3 ,here it is seen that when we create an object of the class and we pass the as object as a n argument of the function call, we pass the value not pass by reference.So changes to the parameter inside a function is not effect  on the  object used in the call.so,get() function return 10.
+
+--------------------------
+
+
+
+## **Assignment No : 05**
+## **Experiment Name :  Passing objects to function**
+## **Submission Date : 25 June 2025**
+----------
+
+## **Code :**
+```C
+#include <iostream>
+using namespace std;
+class Pass
+{
+    int a;
+
+public:
+    Pass(int n)
+    {
+        a = n;
+    }
+    void set(int n) { a = n; }
+
+    int get()
+    {
+        return a;
+    }
+};
+void square(Pass *ob)
+{
+    ob->set(ob->get() * ob->get());
+    cout << "copy of p1 as a value: " << ob->get() << endl;
+}
+
+int main()
+{
+    Pass p1(10);
+    square(&p1);      // pass the address of p1 to square()..
+    cout << p1.get(); // 100
+    return 0;
+}
+
+```
+## **Output :**
+<p align="center">
+<img src="https://github.com/user-attachments/assets/2b9c628f-babb-4528-abe7-d6f1943a579d">
+
+## **Discussion :**
+This code is same as before ,here it is seen that when we create an object of the class and we pass the address of the object as an argument of the square function call.So the function can modify the valuie of argument whose address is used in the call.So, after function call get() function value is modified to 100.Then when get function is called it return modified value 100.
+
+-------------------------------
+
+
+## **Assignment No : 06**
+## **Experiment Name :  Passing objects to function**
+## **Submission Date : 25 June 2025**
+----------
+
+## **Code :**
+```C
+#include <iostream>
+using namespace std;
+class Pass
+{
+    int a;
+
+public:
+    Pass(int n)
+    {
+        a = n;
+        cout << "Constructor is called" << endl;
+    }
+
+    ~Pass() { cout << "Destructor" << endl; }
+
+    int get()
+    {
+        return a;
+    }
+};
+
+int square(Pass ob)
+{
+    return ob.get() * ob.get();
+}
+
+int main()
+{
+    Pass p1(10);
+    cout << square(p1) << endl; // pass by value..
+
+    return 0;
+}
+
+
+```
+## **Output :**
+<p align="center">
+<img src="https://github.com/user-attachments/assets/2925502f-a243-41be-972f-d1b5fc67f16a">
+
+## **Discussion :**
+This code is same as before.Here,when an object is created with argument and the object is pass as an argument of a function then a copy of an object is created,the constructor function is not called.However, when the copy is destroyed the destructor is called.So, here at first constructor is called for creating a object then square function return the value. Then destructor will print two times for local and global scope destroying object.
+
+
+
+
