@@ -144,7 +144,7 @@ int main(){
 ```
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/9e66e4e6-886f-4e48-a36c-a5329952deb7">
+<img src="https://github.com/user-attachments/assets/529e5dee-64b1-4c3f-b410-4c890da8c73e">
 
 ## **Discussion :**
 The class Pass contains a private integer a, which is initialized through the constructor.THe get method used to return the value oa a.In the main() function, two objects x and y are created with values 10 and 4 and then constructor is called and value of a is set.Then when square function is called, it called the get function and get function return the value a.so square function return the square of a.The same as object y. 
