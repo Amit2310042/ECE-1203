@@ -107,3 +107,44 @@ int main()
 
 ## **Discussion :**
 This C++ program demonstrates a simple implementation of a stack using a class and a fixed-size character array. The stack class manages data with two key elements an array stk to hold up to 10 characters and an integer tos (top of stack) to track where new elements should be pushed or popped. The push function adds a character to the stack unless it’s full, while pop removes the most recently added character unless the stack is empty. In the main() function, two stack objects s1 and s2 are created. After pushing three characters ('a', 'b', and 'c') onto s1, the assignment s2 = s1 is used to clone the state of s1 into s2. This line is tells the program to make s2 an exact copy of s1 at that moment, including all elements in the stack and the current top position.
+
+
+------------------------------
+
+
+## **Assignment No : 03**
+## **Experiment Name :  Passing objects to function**
+## **Submission Date : 25 June 2025**
+----------
+
+## **Code :**
+```C
+#include <iostream>
+using namespace std;
+class Pass{
+    int a;
+    public:
+    Pass(int p){
+        a=p;
+    }
+    int get(){
+        return a;
+    }
+};
+int  square(Pass ob){
+    return ob.get()*ob.get();
+}
+
+int main(){
+    Pass x(10),y(4);
+    cout<<square(x)<<endl;
+    cout<<square(y)<<endl;
+}
+
+```
+## **Output :**
+<p align="center">
+<img src="https://github.com/user-attachments/assets/9e66e4e6-886f-4e48-a36c-a5329952deb7">
+
+## **Discussion :**
+The class Pass contains a private integer a, which is initialized through the constructor.THe get method used to return the value oa a.In the main() function, two objects x and y are created with values 10 and 4 and then constructor is called and value of a is set.Then when square function is called, it called the get function and get function return the value a.so square function return the square of a.The same as object y. 
