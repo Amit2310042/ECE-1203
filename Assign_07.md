@@ -1,5 +1,5 @@
 ## **Assignment No : 01**
-## **Experiment Name :  Use of Exection hanling in Real Life Example**
+## **Experiment Name :  Use of Exception handling in Real Life Example**
 ## **Submission Date : 16 August 2025**
 ----------
 
