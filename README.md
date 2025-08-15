@@ -53,5 +53,5 @@ _**Heaven’s Light is Our Guide**_
 | 04 | Keyword |[Assign_4](https://github.com/Amit2310042/ECE-1203/blob/main/Assign_4.md)
 | 05 | Chapter-03 |[Assign_5](https://github.com/Amit2310042/ECE-1203/blob/main/Assign_5.md)
 | 06 | EXCEPTION HANDLING Books Example |[Assign_6](https://github.com/Amit2310042/ECE-1203/blob/main/Assign_6.md)
-| 07 | A Real Life Use of Exception Handling |[Assign_6]()
+| 07 | A Real Life Use of Exception Handling |[Assign_7](https://github.com/Amit2310042/ECE-1203/blob/main/Assign_07.md)
 
